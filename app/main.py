@@ -17,7 +17,7 @@ from . routers import post, user, auth
 from .config import Settings
 from fastapi.middleware.cors import CORSMiddleware
 
-# If alembic, don't required
+# If alembic, don't required to use
 # models.Base.metadata.create_all(bind=engine)
 app = FastAPI()
 
